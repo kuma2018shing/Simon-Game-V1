@@ -79,9 +79,10 @@ function checkAnswer(currentLevel) {
 
 //restart game if user gets wrong answer
 function restartGame(){
+  buttonColours = ["red", "blue", "green", "yellow"];
   gameLevel = 0;
   gamePattern = [];
-  var userClickedPattern = [];
+  userClickedPattern = [];
   gameStart = false;
 }
 
