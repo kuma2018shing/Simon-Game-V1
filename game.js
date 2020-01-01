@@ -79,7 +79,7 @@ function checkAnswer(currentLevel) {
 
 //restart game if user gets wrong answer
 function restartGame(){
-  level = 0;
+  gameLevel = 0;
   gamePattern = [];
   gameStart = false;
 }
