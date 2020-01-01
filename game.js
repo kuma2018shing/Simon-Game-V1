@@ -10,7 +10,7 @@ var gameStart = false;
 var gameLevel = 0;
 
 //This will check if game has started hence declaring game level
-$(document).keypress(function() {
+$(document).click(function() {
   if (!gameStart) {
 
     $("#level-title").text("Level " + gameLevel);
@@ -71,7 +71,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 50);
 
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Tap to Restart");
 
     restartGame();
   }
