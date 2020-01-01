@@ -81,7 +81,7 @@ function checkAnswer(currentLevel) {
 function restartGame(){
   level = 0;
   gamePattern = [];
-  started = false;
+  gameStart = false;
 }
 
 //play corresponding sound when button is clicked
