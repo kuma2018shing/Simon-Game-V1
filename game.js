@@ -59,7 +59,7 @@ function checkAnswer(currentLevel) {
 
       setTimeout(function() {
         nextSequence();
-      }, 250);
+      }, 1000);
     }
   }else {
     console.log("wrong");
@@ -69,7 +69,7 @@ function checkAnswer(currentLevel) {
     $("body").addClass("game-over");
     setTimeout(function () {
       $("body").removeClass("game-over");
-    }, 50);
+    }, 200);
 
     $("#level-title").text("Game Over, Enter a key to Restart");
 
