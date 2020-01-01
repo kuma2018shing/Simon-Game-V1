@@ -81,6 +81,7 @@ function checkAnswer(currentLevel) {
 function restartGame(){
   gameLevel = 0;
   gamePattern = [];
+  var userClickedPattern = [];
   gameStart = false;
 }
 
